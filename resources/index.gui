@@ -1,0 +1,15 @@
+<svg class="background">
+  <!--Background Image-->
+  <image x="0" y="-75" width="350" height="500" href="assets/sand.png" />
+  
+  <!--Heart Rate Information-->
+  <image id="heartRate" href="assets/heartrate.png" />
+  <text id="heartRate__text" />
+  
+  <!--Battery Level Information-->
+  <text id="battery__text" />
+  <image id="battery" href="assets/battery.png" />
+  
+  <text id="clock__text">00:00</text>
+  
+</svg>

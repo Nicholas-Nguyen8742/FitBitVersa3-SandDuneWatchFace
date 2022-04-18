@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "e972c0cf-4235-4356-b299-f92033ab82b9",
+    "appType": "app",
+    "appDisplayName": "1 Rep Max Calculator",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_calendar",
+      "access_activity",
+      "access_location"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "1 Rep Max Calculator"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

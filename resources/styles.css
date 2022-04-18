@@ -1,0 +1,43 @@
+#battery {
+  x: 277;
+  y: 16;
+  width: 24;
+  height: 24;
+  text-anchor: end;
+}
+
+#battery__text {
+  x: 275;
+  y: 35;
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 4;
+  text-anchor: end;
+  fill: #FFFFFF;
+}
+
+#heartRate {
+  x: 44;
+  y: 16;
+  text-anchor: start;
+  width: 24;
+  height: 24;
+}
+
+#heartRate__text {
+  x: 70;
+  y: 35;
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 4;
+  text-anchor: start;
+  fill: #FFFFFF;
+}
+
+#clock__text{
+  x: 125;
+  y: 185;
+  font-size: 50;
+  font-family: System-Bold;
+  fill: #F4A460;
+}
